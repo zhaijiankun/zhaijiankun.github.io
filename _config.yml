@@ -1,29 +1,16 @@
-# Jekyll configuration
+name: Jekyll Themes
+url: http://matt.harzewski.com
+description: Insert tagline here
 
-name: Xixia
-description: Welcome to Xixia！
+permalink: /themes/:title/
 
-# url is currently only used only for the RSS feed in feed.xml
-url: https://github.com/zxixia/jekyll-xixia
+gems: [jekyll-paginate]
 
-# baseurl will often be '', but for a project page on gh-pages, it needs to
-# be the project name.
-# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
-#     run it like so: jekyll serve --baseurl=''
-baseurl: '/jekyll-xixia'
-## default date_format
-date_format: 
-  title: "%B-%-d-%Y"
-  archive: "%b"
-  categories: "%b-%Y"
-  tag: "%b-%Y"
-# Language
-lan: "en" 
+highlighter: pygments
+paginate: 20
 
-paginate: 10
+markdown: rdiscount
+rdiscount:
+    extensions: ['smart']
 
-highlighter: rouge
-markdown: kramdown
-gems: ['jekyll-paginate']
-
-exclude: ['README.md', 'LICENSE', "*.bak"]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
