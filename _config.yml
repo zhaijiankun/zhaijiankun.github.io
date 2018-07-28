@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: Jiankun.Zhai
-description: Welcome to Jiankun！
+description: 草萤有耀终非火
 
 # url is currently only used only for the RSS feed in feed.xml
 url: https://github.com/zhaijiankun/zhaijiankun.github.io
@@ -18,7 +18,7 @@ date_format:
   categories: "%b-%Y"
   tag: "%b-%Y"
 # Language
-lan: "en" 
+lan: "cn" 
 
 paginate: 10
 
