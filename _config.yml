@@ -1,4 +1,4 @@
-# Jekyll configuration
+﻿# Jekyll configuration
 
 name: Jiankun.Zhai
 description: 草萤有耀终非火
@@ -27,5 +27,3 @@ markdown: kramdown
 gems: ['jekyll-paginate']
 
 exclude: ['README.md', 'LICENSE', "*.bak"]
-
-theme: jekyll-theme-cayman
